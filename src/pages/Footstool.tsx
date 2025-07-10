@@ -80,22 +80,22 @@ const Footstool = () => (
             <input type="number" min={1} defaultValue={1} className="border rounded px-2 py-1 w-20" />
             <button className="bg-[#F37021] text-white px-4 py-2 rounded font-semibold shadow hover:bg-[#d9570a]">Add to cart</button>
             <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20Footstool%20with%20storage%20at%20KSh%206,599%20(Quantity:%20${1})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#1c4e3d] text-white px-4 py-2 rounded font-semibold shadow hover:bg-[#17603a] inline-block"
->
-  Lipia Polepole
-</a>
+            href={`https://wa.me/254753818138?text=${encodeURIComponent('Hi MoKo! I want to Lipia Polepole for the Footstool with storage at KSh 6,599 (Quantity: 1)')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#1c4e3d] text-white px-4 py-2 rounded font-semibold shadow hover:bg-[#17603a] inline-block"
+          >
+            Lipia Polepole
+          </a>
         </div>
         <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20order%20the%20Footstool%20with%20storage%20at%20KSh%206,599%20(Quantity:%20${1})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded text-center mb-4 transition-colors shadow-sm block"
->
-  Order on WhatsApp
-</a>
+          href={`https://wa.me/254753818138?text=${encodeURIComponent('Hi MoKo! I want to order the Footstool with storage at KSh 6,599 (Quantity: 1)')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded text-center mb-4 transition-colors shadow-sm block"
+        >
+          Order on WhatsApp
+        </a>
           {/* Description */}
           <section className="mb-8">
             <h2 className="font-bold text-lg mb-2">Description</h2>

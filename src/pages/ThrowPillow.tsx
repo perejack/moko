@@ -20,22 +20,22 @@ const ThrowPillow = () => (
         <label className="block font-medium mb-1">Throw Pillow quantity</label>
         <input type="number" min={1} defaultValue={1} className="border rounded px-2 py-1 w-20" />
         <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20Throw%20Pillow%20at%20KSh%201,049%20(Quantity:%20${1})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="ml-4 bg-[#1c4e3d] text-white px-4 py-2 rounded shadow hover:bg-[#17603a] inline-block"
->
-  Lipia Polepole
-</a>
+          href={`https://wa.me/254753818138?text=${encodeURIComponent('Hi MoKo! I want to Lipia Polepole for the Throw Pillow at KSh 1,049 (Quantity: 1)')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-4 bg-[#1c4e3d] text-white px-4 py-2 rounded shadow hover:bg-[#17603a] inline-block"
+        >
+          Lipia Polepole
+        </a>
       </div>
       <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20order%20the%20Throw%20Pillow%20at%20KSh%201,049%20(Quantity:%20${1})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded text-center mb-4 transition-colors shadow-sm block"
->
-  Order on WhatsApp
-</a>
+        href={`https://wa.me/254753818138?text=${encodeURIComponent('Hi MoKo! I want to order the Throw Pillow at KSh 1,049 (Quantity: 1)')}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded text-center mb-4 transition-colors shadow-sm block"
+      >
+        Order on WhatsApp
+      </a>
       <section className="mb-8">
         <h2 className="font-bold text-lg mb-2">Description</h2>
         <p className="mb-2">Our throw pillows are made with high-density foam for extra comfort and support. Perfect for sofas, beds, or as decorative accents in any room.</p>

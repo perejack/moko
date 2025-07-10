@@ -80,22 +80,8 @@ const SofaDetails = () => {
             </div>
             <div className="flex gap-2 mb-4">
               <button className="bg-[#F37021] hover:bg-[#d9570a] text-white font-bold py-2 px-6 rounded-[8px] transition-colors text-[16px] shadow-sm">Add to cart</button>
-              <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20${encodeURIComponent(product.title)}%20at%20${encodeURIComponent(product.priceRange)}%20(Quantity:%20${quantity})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#004d40] hover:bg-[#00796b] text-white font-bold py-2 px-6 rounded-[8px] transition-colors text-[16px] shadow-sm"
->
-  Lipia Polepole
-</a>
-              <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20order%20the%20${encodeURIComponent(product.title)}%20for%20${encodeURIComponent(product.priceRange)}%20(Quantity:%20${quantity})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-2 px-6 rounded-[8px] transition-colors text-[16px] shadow-sm"
->
-  Order on WhatsApp
-</a>
+              <button className="bg-[#004d40] hover:bg-[#00796b] text-white font-bold py-2 px-6 rounded-[8px] transition-colors text-[16px] shadow-sm">Lipia Polepole</button>
+              <button className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-2 px-6 rounded-[8px] transition-colors text-[16px] shadow-sm">Order on WhatsApp</button>
             </div>
           </div>
         </div>

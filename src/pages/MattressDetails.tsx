@@ -10,7 +10,6 @@ const MattressDetails = () => {
   const { slug } = useParams();
   const product = mattresses.find((m) => m.slug === slug);
   const [thickness, setThickness] = useState("");
-  const [quantity, setQuantity] = useState(1);
 
   if (!product) {
     return (
@@ -70,31 +69,11 @@ const MattressDetails = () => {
               )}
             </div>
             <div className="flex items-center gap-2 mb-4">
-              <input
-  type="number"
-  min={1}
-  value={quantity}
-  onChange={e => setQuantity(Number(e.target.value))}
-  className="border border-gray-300 rounded px-3 py-2 w-20"
-/>
+              <input type="number" min={1} defaultValue={1} className="border border-gray-300 rounded px-3 py-2 w-20" />
               <button className="bg-[#F37021] hover:bg-[#d9570a] text-white font-bold py-2 px-6 rounded-[8px] transition-colors shadow-sm">Add to cart</button>
-              <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20${encodeURIComponent(product.title)}%20at%20${encodeURIComponent(product.priceRange)}%20(Quantity:%20${quantity || 1})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-[#1c4e3d] hover:bg-[#17603a] text-white font-bold py-2 px-6 rounded-[8px] ml-2"
->
-  Lipia Polepole
-</a>
+              <button className="bg-[#1c4e3d] hover:bg-[#17603a] text-white font-bold py-2 px-6 rounded-[8px] ml-2">Lipia Polepole</button>
             </div>
-            <a
-  href={`https://wa.me/254755335197?text=Hi%20MoKo!%20I%20want%20to%20order%20the%20${encodeURIComponent(product.title)}%20for%20${encodeURIComponent(product.priceRange)}%20(Quantity:%20${quantity || 1})`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-[8px] mb-4"
->
-  Order on WhatsApp
-</a>
+            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-[8px] mb-4">Order on WhatsApp</button>
             <div className="flex flex-wrap gap-2 mb-4">
               {product.whatsGood.map((good, i) => (
                 <span key={i} className="inline-block bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">{good}</span>
