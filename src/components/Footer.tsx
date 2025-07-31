@@ -96,7 +96,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
         {/* Admin Login Button */}
         <div className="mt-8 text-center">
           <button
