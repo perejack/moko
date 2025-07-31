@@ -2,7 +2,7 @@ import React from 'react';
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 
-const phone = '254788021130';
+const phone = '+254788021130';
 
 export default function Cart() {
   const { cart, removeFromCart, clearCart } = useCart();

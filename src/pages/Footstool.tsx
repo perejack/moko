@@ -80,7 +80,7 @@ const Footstool = () => (
             <input type="number" min={1} defaultValue={1} className="border rounded px-2 py-1 w-20" />
             <button className="bg-[#F37021] text-white px-4 py-2 rounded font-semibold shadow hover:bg-[#d9570a]">Add to cart</button>
             <a
-            href={`https://wa.me/254788021130?text=${encodeURIComponent('Hi MoKo! I want to Lipia Polepole for the Footstool with storage at KSh 6,599 (Quantity: 1)')}`}
+            href={`https://wa.me/+254788021130?text=${encodeURIComponent('Hi MoKo! I want to Lipia Polepole for the Footstool with storage at KSh 6,599 (Quantity: 1)')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#1c4e3d] text-white px-4 py-2 rounded font-semibold shadow hover:bg-[#17603a] inline-block"
@@ -89,7 +89,7 @@ const Footstool = () => (
           </a>
         </div>
         <a
-          href={`https://wa.me/254788021130?text=${encodeURIComponent('Hi MoKo! I want to order the Footstool with storage at KSh 6,599 (Quantity: 1)')}`}
+          href={`https://wa.me/+254788021130?text=${encodeURIComponent('Hi MoKo! I want to order the Footstool with storage at KSh 6,599 (Quantity: 1)')}`}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded text-center mb-4 transition-colors shadow-sm block"

@@ -98,7 +98,7 @@ const TvStandDetails = () => {
             </div>
             <div className="flex flex-col gap-4 mt-6">
               <a
-                href={`https://wa.me/254788021130?text=Hi%20MoKo!%20I%20want%20to%20order%20the%20${encodeURIComponent(tvstand.title)}%20for%20${encodeURIComponent(tvstand.price)}%20(Quantity:%20${quantity})`}
+                href={`https://wa.me/+254788021130?text=Hi%20MoKo!%20I%20want%20to%20order%20the%20${encodeURIComponent(tvstand.title)}%20for%20${encodeURIComponent(tvstand.price)}%20(Quantity:%20${quantity})`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-[8px] text-center mb-4 transition-colors shadow-sm"
@@ -106,7 +106,7 @@ const TvStandDetails = () => {
                 Order on WhatsApp
               </a>
               <a
-                href={`https://wa.me/254788021130?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20${encodeURIComponent(tvstand.title)}%20at%20${encodeURIComponent(tvstand.price)}%20(Quantity:%20${quantity})`}
+                href={`https://wa.me/+254788021130?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20${encodeURIComponent(tvstand.title)}%20at%20${encodeURIComponent(tvstand.price)}%20(Quantity:%20${quantity})`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-[#1c4e3d] hover:bg-[#17603a] text-white font-bold py-2 px-6 rounded-[8px] text-center mb-4 transition-colors shadow-sm"
@@ -130,7 +130,7 @@ const TvStandDetails = () => {
               </button>
             </div>
             <a
-              href={`https://wa.me/254788021130?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20${encodeURIComponent(tvstand.title)}%20at%20${encodeURIComponent(tvstand.price)}%20(Quantity:%20${quantity})`}
+              href={`https://wa.me/+254788021130?text=Hi%20MoKo!%20I%20want%20to%20Lipia%20Polepole%20for%20the%20${encodeURIComponent(tvstand.title)}%20at%20${encodeURIComponent(tvstand.price)}%20(Quantity:%20${quantity})`}
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-[#1c4e3d] hover:bg-[#17603a] text-white font-bold py-2 px-6 rounded-[8px] text-center mb-4 transition-colors shadow-sm"

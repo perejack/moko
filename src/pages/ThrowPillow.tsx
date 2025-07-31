@@ -20,7 +20,7 @@ const ThrowPillow = () => (
         <label className="block font-medium mb-1">Throw Pillow quantity</label>
         <input type="number" min={1} defaultValue={1} className="border rounded px-2 py-1 w-20" />
         <a
-          href={`https://wa.me/254788021130?text=${encodeURIComponent('Hi MoKo! I want to Lipia Polepole for the Throw Pillow at KSh 1,049 (Quantity: 1)')}`}
+          href={`https://wa.me/+254788021130?text=${encodeURIComponent('Hi MoKo! I want to Lipia Polepole for the Throw Pillow at KSh 1,049 (Quantity: 1)')}`}
           target="_blank"
           rel="noopener noreferrer"
           className="ml-4 bg-[#1c4e3d] text-white px-4 py-2 rounded shadow hover:bg-[#17603a] inline-block"
@@ -29,7 +29,7 @@ const ThrowPillow = () => (
         </a>
       </div>
       <a
-        href={`https://wa.me/254788021130?text=${encodeURIComponent('Hi MoKo! I want to order the Throw Pillow at KSh 1,049 (Quantity: 1)')}`}
+        href={`https://wa.me/+254788021130?text=${encodeURIComponent('Hi MoKo! I want to order the Throw Pillow at KSh 1,049 (Quantity: 1)')}`}
         target="_blank"
         rel="noopener noreferrer"
         className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded text-center mb-4 transition-colors shadow-sm block"

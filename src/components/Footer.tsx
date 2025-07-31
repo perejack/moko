@@ -1,10 +1,13 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Phone, Mail, Facebook, Instagram, MapPin } from 'lucide-react';
+import AdminLoginModal from './AdminLoginModal';
 
 const Footer = () => {
+  const [showAdminLogin, setShowAdminLogin] = useState(false);
   return (
-    <footer className="bg-white py-12 border-t">
+    <>
+      <footer className="bg-white py-12 border-t">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo and CTA */}
@@ -94,7 +97,29 @@ const Footer = () => {
           </div>
         </div>
       </div>
+        {/* Admin Login Button */}
+        <div className="mt-8 text-center">
+          <button
+            className="inline-flex items-center gap-2 bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-full font-semibold shadow-sm transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-gray-400"
+            onClick={() => setShowAdminLogin(true)}
+            title="Admin Login"
+          >
+            Admin Login
+          </button>
+        </div>
+      </div>
+      <AdminLoginModal
+        isOpen={showAdminLogin}
+        onClose={() => setShowAdminLogin(false)}
+        onLogin={() => {}}
+      />
     </footer>
+      <AdminLoginModal
+        isOpen={showAdminLogin}
+        onClose={() => setShowAdminLogin(false)}
+        onLogin={() => {}}
+      />
+    </>
   );
 };
 
