@@ -108,18 +108,13 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <AdminLoginModal
-        isOpen={showAdminLogin}
-        onClose={() => setShowAdminLogin(false)}
-        onLogin={() => {}}
-      />
     </footer>
-      <AdminLoginModal
-        isOpen={showAdminLogin}
-        onClose={() => setShowAdminLogin(false)}
-        onLogin={() => {}}
-      />
-    </>
+    <AdminLoginModal
+      isOpen={showAdminLogin}
+      onClose={() => setShowAdminLogin(false)}
+      onLogin={() => {}}
+    />
+  </>
   );
 };
 
