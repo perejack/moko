@@ -85,11 +85,11 @@ const Header = () => {
           <div className="max-w-7xl mx-auto flex justify-end items-center gap-6 text-sm">
             <div className="flex items-center gap-3 flex-wrap">
               <a
-                href="tel:++254788021130"
+                href="tel:+254788021130"
                 className="inline-flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-white px-3 py-1.5 rounded-full font-semibold shadow-sm transition-colors text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-cyan-400"
               >
                 <Phone size={18} className="text-white" />
-                Call +254 753 818138
+                Call +254788021130
               </a>
             </div>
             <div className="ml-4 relative flex items-center gap-4">
